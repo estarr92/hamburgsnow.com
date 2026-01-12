@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Coming Soon</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin:0;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color:white;
+  font-family:system-ui;
+  text-align:center;
+}
+h1 { font-size:3rem; margin-bottom:0.5rem; }
+p { opacity:0.8; letter-spacing:0.05em; }
+.box {
+  padding:50px;
+  border:1px solid rgba(255,255,255,.1);
+  border-radius:20px;
+  backdrop-filter:blur(10px);
+  background:rgba(255,255,255,.05);
+}
+</style>
+</head>
+<body>
+  <div class="box">
+    <h1>Coming Soon</h1>
+    <p>Something awesome is on the way.</p>
+  </div>
+</body>
+</html>
